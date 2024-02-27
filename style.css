@@ -30,3 +30,13 @@
     margin-left: 200px;
     color:white;
 }
+
+/* Fix Home being inconsistent */
+.topnav a.home{
+    margin-left: 40px;
+}
+
+.topnav a:hover{
+    color: white;
+    background-color: black;
+}
