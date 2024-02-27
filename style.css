@@ -1,0 +1,33 @@
+/* CSS sheet for header and navigation*/
+
+#imgLogo {
+    max-width: 150px;
+}
+
+#imgCart{
+    max-width: 50px;
+    float: right;
+}
+.topnav{
+    background-color: #C8102E;
+    height: 50px;
+    font-family: 'Calibri';
+    font-size: 40px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    margin-top: 15px;
+    border-radius: 25px;
+}
+/* Highlight active section */
+.topnav a.active{
+    float: left;
+    color:black;
+    background-color: white; 
+    margin-left: 40px;
+}
+.topnav a{
+    float: left;
+    margin-left: 200px;
+    color:white;
+}
