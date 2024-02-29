@@ -32,14 +32,11 @@
     color: white;
     background-color: black;
 }
-/* Allows the homepage navigation to be consistent */
-#menuBar a.active{
-    margin-right: 50px;
-}
 /*Default font for website */
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Default size for website*/
 h1{
     font-size:40px;
     text-align: center;
