@@ -6,8 +6,50 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-        .topnav a.active{
+        #menuBar a.active{
             margin-left: 40px;
+        }
+        /*/ Picture Description */
+        div a.authentic{
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 50px;
+            float:left;
+        }
+        div a.donation {
+            font-size: 25px;
+            text-align: center;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            margin-left: 475px;
+        }
+        div a.import{
+            font-size: 25px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+            float:right;
+            margin-right: 50px;
+        }
+        /* Pictures */
+        #United24 {
+            margin: 350px;
+            margin-top:100px;
+            max-width: 400px;
+            max-height: 200px;
+        }
+
+        #Food{
+            float:left;
+            margin-top:100px;
+            max-width: 400px;
+            max-height: 200px;
+        }
+
+        #Roshen{
+            float:right;
+            margin-top: 100px;
+            max-width: 400px;
+            max-height: 200px;
         }
     </style>
 </head>
@@ -18,7 +60,7 @@
             <img src="img/Cart.png" alt= "Checkout" element id="imgCart">
         </a>
     </header>
-    <div class="topnav">
+    <div class="topnav" id="menuBar">
         <a class="active" href="home.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="events.html">Events</a>
@@ -28,7 +70,11 @@
 
       <h1>Welcome to the Sugar Land branch of University of Houston Dining Services.</h1>
       <h2>We offer:</h2>
-
+    <div>
+      <a class="authentic">Authentic Ukrainian Food</a>
+        <a class="donation">Donations to Ukraine</a>
+        <a class ="import">Imports from Ukraine</a>
+    </div>
       <img src="img/Borsch.png" element id="Food">
       <a href="https://u24.gov.ua/">
       <img src="img/United24.png" element id="United24">
@@ -36,6 +82,5 @@
         <a href="https://roshen.com/en">
       <img src="img/Roshen.png" element id="Roshen">
     </a>
-    
 </body>
 </html>
