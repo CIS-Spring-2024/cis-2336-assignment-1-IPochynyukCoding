@@ -6,58 +6,37 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="style.css" />
     <style>
-        #menuBar a.active{
-            margin-left: 40px;
+        .newitems{
+            border: 2px solid  #C8102E; 
+            text-align: justify;
         }
-        /*/ Picture Description */
-        div a.authentic{
+        .newitems:after {
+            display:inline-block;
+            width:100%;
+            content:'';
+        }
+        .newitems .item{
+            border: 2px  #C8102E; 
+            margin: 1em;
+            display:inline-block;
+        }
+        .newitems .item h1{
             font-size: 25px;
-            text-align: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin-left: 50px;
-            float:left;
         }
-        div a.donation {
-            font-size: 25px;
-            text-align: center;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            margin-left: 475px;
-        }
-        div a.import{
-            font-size: 25px;
-            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-            text-align: center;
-            float:right;
-            margin-right: 50px;
-        }
-        /* Pictures */
-        #United24 {
-            margin: 350px;
-            margin-top:100px;
+        .newitems .item img{
             max-width: 400px;
             max-height: 200px;
-        }
-
-        #Food{
-            float:left;
-            margin-top:100px;
-            max-width: 400px;
-            max-height: 200px;
-        }
-
-        #Roshen{
-            float:right;
-            margin-top: 100px;
-            max-width: 400px;
-            max-height: 200px;
+            margin-left:auto;
+            margin-right:auto;
+            display:block;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="img/Logo.png" element id="imgLogo">
+        <img src="img/Logo.png" id="imgLogo">
         <a href="checkout.html">
-            <img src="img/Cart.png" alt= "Checkout" element id="imgCart">
+            <img src="img/Cart.png" alt= "Checkout" id="imgCart">
         </a>
     </header>
     <div class="topnav" id="menuBar">
@@ -70,17 +49,25 @@
 
       <h1>Welcome to the Sugar Land branch of University of Houston Dining Services.</h1>
       <h2>We offer:</h2>
-    <div>
-      <a class="authentic">Authentic Ukrainian Food</a>
-        <a class="donation">Donations to Ukraine</a>
-        <a class ="import">Imports from Ukraine</a>
+
+<div class = "newitems">
+      <div class= "item" id="food">
+        <h1 class="authentic">Authentic Ukrainian Food</h1>
+        <img src="img/Borsch.png">
+        </div>
+        <div class="item" id="donation">
+        <h1 class="item">Donations to Ukraine</h1>
+        <a href="https://u24.gov.ua/">
+        <img src="img/United24.png">
+        </a>
     </div>
-      <img src="img/Borsch.png" element id="Food">
-      <a href="https://u24.gov.ua/">
-      <img src="img/United24.png" element id="United24">
-    </a>
+    <div class="item" id="import">
+        <h1 class="import">Imports from Ukraine</h1>
         <a href="https://roshen.com/en">
-      <img src="img/Roshen.png" element id="Roshen">
-    </a>
+        <img src="img/Roshen.png">
+        </a>
+    </div>
+   
+</div>   
 </body>
 </html>

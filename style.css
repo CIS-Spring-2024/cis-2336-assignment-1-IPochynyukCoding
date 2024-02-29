@@ -9,14 +9,14 @@
 }
 #menuBar{
     background-color: #C8102E;
-    height: 50px;
+    height: 40px;
     font-family: 'Calibri';
-    font-size: 40px;
+    font-size: 35px;
     width: 100%;
     display: inline-block;
-    text-align: center;
     margin-top: 15px;
     border-radius: 25px;
+    text-align: justify;
 }
 #menuBar a.active{
     float: left;
@@ -33,21 +33,20 @@
     background-color: black;
 }
 /* Allows the homepage navigation to be consistent */
-#menuBar a.home{
-    margin-left: 40px;
+#menuBar a.active{
+    margin-right: 50px;
 }
-
 /*Default font for website */
-h1{
-    font-size:50px;
-    text-align: center;
+body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-
+}
+h1{
+    font-size:40px;
+    text-align: center;
 }
 h2 {
     font-size:30px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right:50px;
     text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
