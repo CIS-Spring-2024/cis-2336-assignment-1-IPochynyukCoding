@@ -9,7 +9,7 @@
 }
 #menuBar{
     background-color: #C8102E;
-    height: 40px;
+    height: auto;
     font-family: 'Calibri';
     font-size: 35px;
     width: 100%;
