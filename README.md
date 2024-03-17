@@ -6,4 +6,10 @@ Push your files to github and zip the files to upload on canvas [sic] as well."
 
 
 Status:
-Only the Home and Owner pages work in this Assignment. 
+Home ✅
+Menu ❌
+Events ❌
+Review Us ❌
+Partner ✅
+Owner ✅
+Cart ❌
