@@ -6,10 +6,17 @@ Push your files to github and zip the files to upload on canvas [sic] as well."
 
 
 Status:
+
 Home ✅
+
 Menu ❌
+
 Events ❌
+
 Review Us ❌
+
 Partner ✅
+
 Owner ✅
+
 Cart ❌
