@@ -9,7 +9,7 @@
 }
 #menuBar{
     background-color: #C8102E;
-    height: 40px;
+    height: auto;
     font-family: 'Calibri';
     font-size: 35px;
     width: 100%;
@@ -36,7 +36,6 @@
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/*Default size for website*/
 h1{
     font-size:40px;
     text-align: center;
@@ -46,4 +45,8 @@ h2 {
     margin-top: 50px;
     margin-right:50px;
     text-align: center;
+}
+footer{
+    text-align: center;
+    margin-top: 40px;
 }
