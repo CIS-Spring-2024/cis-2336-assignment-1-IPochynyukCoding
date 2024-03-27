@@ -18,7 +18,7 @@
     border-radius: 25px;
     text-align: justify;
 }
-#menuBar a.active{
+#menuBar a.current{
     float: left;
     color:black;
     background-color: white; 
