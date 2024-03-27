@@ -1,42 +1,8 @@
-/* CSS section for header and navigation*/
-#imgLogo {
-    max-width: 150px;
-}
-
-#imgCart{
-    max-width: 50px;
-    float: right;
-}
-#menuBar{
-    background-color: #C8102E;
-    height: auto;
-    font-family: 'Calibri';
-    font-size: 35px;
-    width: 100%;
-    display: inline-block;
-    margin-top: 15px;
-    border-radius: 25px;
-    text-align: justify;
-}
-#menuBar a.current{
-    float: left;
-    color:black;
-    background-color: white; 
-}
-#menuBar a{
-    float: left;
-    margin-left: 200px;
-    color:white;
-}
-#menuBar a:hover{
-    color: white;
-    background-color: black;
-}
 /*Default font for website */
-body{
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-h1{
+h1 {
     font-size:40px;
     text-align: center;
 }
@@ -46,7 +12,45 @@ h2 {
     margin-right:50px;
     text-align: center;
 }
-footer{
+footer {
     text-align: center;
     margin-top: 40px;
+}
+
+/* CSS section for header and navigation*/
+#imgLogo {
+    max-width: 150px;
+}
+
+#imgCart {
+    max-width: 50px;
+    float: right;
+}
+#menuBar {
+    background-color: #C8102E;
+    height: auto;
+    font-family: 'Calibri';
+    font-size: 35px;
+    width: 100%;
+    display: inline-block;
+    margin-top: 15px;
+    border-radius: 25px;
+    text-align: justify;
+
+    a {
+        float: left;
+        margin-left: 200px;
+        color:white;
+    }
+
+    a.current {
+    float: left;
+    color:black;
+    background-color: white; 
+    }
+
+    a:hover {
+    color: white;
+    background-color: black;
+    }
 }

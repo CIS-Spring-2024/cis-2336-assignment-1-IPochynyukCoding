@@ -6,32 +6,36 @@
     <title>Welcome</title>
     <link rel="stylesheet" href="uhstyle.css" />
     <style>
-        .newitems{
-            border: 2px solid  #C8102E; 
-            text-align: justify;
-        }
-        .newitems:after {
+    .newitems {
+        border: 2px solid  #C8102E; 
+        text-align: justify;
+        
+        &:after {
             display:inline-block;
             width:100%;
             content:'';
         }
-        .newitems .item{
+        .item {
             margin: 20pt;
             display:inline-block;
-        }
-        .newitems .item h1{
-            font-size: 25px;
-        }
-        .newitems .item ul{
-            font-size:15px;
-        }
-        .newitems .item img{
-            max-width: 400px;
-            max-height: 200px;
-            margin-left:auto;
-            margin-right:auto;
-            display:block;
-        }
+            
+            h1 {
+                font-size: 25px;
+            }
+            
+            ul {
+                font-size:15px;
+            }
+            
+            img {
+                max-width: 400px;
+                max-height: 200px;
+                margin-left:auto;
+                margin-right:auto;
+                display:block;
+            } 
+    }
+}       
     </style>
 </head>
 <body>
@@ -42,7 +46,7 @@
         </a>
     </header>
     <div class="topnav" id="menuBar">
-        <a class="current" href="home.html">Home</a>
+        <a class="current" href="index.html">Home</a>
         <a href="menu.html">Menu</a>
         <a href="events.html">Events</a>
         <a href="review.html">Review Us</a>
@@ -58,7 +62,7 @@
             <a href="menu.html">
                 <img src="img/Borsch.png">
             </a>
-        <h2>Our most popular food include:</h2>
+        <h2>Our most popular food include</h2>
             <ul>
                 <li>Borsch</li>
                 <li>Vareynky</li>
