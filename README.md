@@ -23,6 +23,6 @@ Cart ❌
 
 Credits to: 
 
-Furinkan (Reviewing the first draft)
+Furinkan (Reviewed the first draft and introduced div-classes to better space elements)
 
 René [cunning_prophet] (Introduced Flexboxes to improve mobile viewing)
