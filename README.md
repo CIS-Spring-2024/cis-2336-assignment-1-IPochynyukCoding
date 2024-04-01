@@ -25,4 +25,4 @@ Credits to:
 
 Furinkan (Reviewing the first draft)
 
-René (Introduced Flexboxes to improve mobile viewing)
+René [cunning_prophet] (Introduced Flexboxes to improve mobile viewing)
