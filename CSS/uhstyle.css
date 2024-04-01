@@ -1,15 +1,30 @@
-/*Default font for website */
-body {
+/*Default font parameters for website */
+:root {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
 }
+
 h1 {
-    font-size:40px;
+    font-size:2.5rem;
     text-align: center;
 }
+
 h2 {
-    font-size:30px;
+    font-size: 2rem;
     margin-top: 50px;
     margin-right:50px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 1.75rem;
+    margin-top: 50px;
+    text-align: center;
+}
+h4{
+    font-size:1.25rem;
+    margin-right:50px;
+    margin-bottom: 25px;
     text-align: center;
 }
 footer {
@@ -17,7 +32,7 @@ footer {
     margin-top: 40px;
 }
 
-/* CSS section for header and navigation*/
+/* CSS section for header pictures*/
 #imgLogo {
     max-width: 150px;
 }
@@ -26,31 +41,42 @@ footer {
     max-width: 50px;
     float: right;
 }
+/* CSS for menubar */
 #menuBar {
     background-color: #C8102E;
-    height: auto;
+
     font-family: 'Calibri';
-    font-size: 35px;
+    font-size: 2rem;
     width: 100%;
     display: inline-block;
+    padding: 1rem 0.5rem;
     margin-top: 15px;
     border-radius: 25px;
-    text-align: justify;
+    ul{
+        margin:0;
+        padding:0;
+        list-style: none;
+        white-space: nowrap;
 
-    a {
-        float: left;
-        margin-left: 200px;
-        color:white;
-    }
+        /*Flexbox for better mobile viewing */
+        display: flex;
+        column-gap: 5rem;
+        flex-wrap: wrap;
+        flex-direction:initial;
 
-    a.current {
-    float: left;
-    color:black;
-    background-color: white; 
-    }
-
-    a:hover {
-    color: white;
-    background-color: black;
+        li {
+            float: left;
+            a{
+                color: white;
+            }
+            a.current {
+            background-color:white;
+            color: black; 
+            }
+            &:hover {
+            color: white;
+            background-color: black;
+            }
+        }
     }
 }

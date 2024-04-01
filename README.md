@@ -20,3 +20,9 @@ Partner ✅
 Owner ✅
 
 Cart ❌
+
+Credits to: 
+
+Furinkan (Reviewing the first draft)
+
+René (Introduced Flexboxes to improve mobile viewing)
