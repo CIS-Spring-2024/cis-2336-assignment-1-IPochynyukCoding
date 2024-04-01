@@ -23,6 +23,6 @@ Cart ❌
 
 Credits to: 
 
-Furinkan (Reviewed the first draft and introduced div-classes to better space elements)
+Furinkan [Discord: Furinkan] (Reviewed the first draft and introduced div-classes to better space elements)
 
-René [cunning_prophet] (Introduced Flexboxes to improve mobile viewing)
+René [Discord: cunning_prophet] (Introduced Flexboxes to improve mobile viewing)
