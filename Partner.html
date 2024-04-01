@@ -9,36 +9,38 @@
     .newitem{
         border: 2px solid  #C8102E; 
         text-align: justify;
-        }
-    .newitem:after{
-        display:inline-block;
-        width:100%;
-        content:'';
-    }
-    .newitem a{
+        a{
         display: inline-block;
         line-height: 1em;
         overflow: hidden;
         text-align: center;
         margin: auto;
     }
-    .newitem img{
-        max-width: 300px;
-        max-height: 150px;
+    img{
+        max-width: 20rem;
+        max-height: 10rem;
         margin-left:auto;
         margin-right:auto;
         position: relative;
-        
-
     }
-    .newitem h1{
-        font-size: 40pt;
+    h1{
+        font-size: 3rem;
         text-align: center;
         box-sizing: border-box;
     }
-    .newitem h2{
+    h2{
         text-align: left;
+        font-size: 1.5rem;
     }
+    ul{
+        list-style:circle;
+    }
+    &:after{
+        display:inline-block;
+        width:100%;
+        content:'';
+    }
+}
     </style>
 </head>
 <body>
@@ -64,6 +66,11 @@
         <a href="kafeOwner.html">
             <img src="img/TryzubLogo.png">
         </a>
+    <h2>Partner contact details:</h2>
+    <ul>
+        <li>Phone: 346-422-6225</li>
+        <li>Email: <a href="mailto:ivanpochynyuk@europe.com">ivanpochynyuk@europe.com</a></li>
+    </ul>
     </div>
 </div>
 </body>
