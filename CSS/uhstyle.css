@@ -58,7 +58,7 @@ footer {
         list-style: none;
         white-space: nowrap;
 
-        /*Flexbox for better mobile viewing */
+        /*Flexbox for better mobile viewing, thanks to René*/
         display: flex;
         column-gap: 5rem;
         flex-wrap: wrap;
